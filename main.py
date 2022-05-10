@@ -31,15 +31,18 @@
 # print("Tipo: ", type(tipos))
 # print("Valor: ", tipos)
 
-
+# Listas - Se usan paréntesis
 # mas_frutas = ['manzana', 'naranja', 'banana', 'pera', 'piña', 'manzana', 'melocotón', 'kiwi']
 
 # for fruta in mas_frutas:
 #     print(f'Nombre de la fruta:  {fruta}')
 
 
-frutas = {'manzana':'roja', 'banana':'amarilla', 'naranja':'naranja'}
+# Diccionarios - Se usan corchetes
+# frutas = {'manzana':'roja', 'banana':'amarilla', 'naranja':'naranja'}
 
-for llave, valor in frutas.items():
-    print(llave, valor)
+# for llave, valor in frutas.items():
+#     print(llave, valor)
 
+cuadrados = [x ** 2 for x in range(10)]
+print(cuadrados)
